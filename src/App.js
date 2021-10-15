@@ -6,7 +6,7 @@ function App() {
       <div className="instructions">
         <p>Scenario:</p>
         <p>
-          Your lazy Design Engineer was supposed to finish the mockup of a new card component,
+          Your lazy Design Engineer was supposed to finish the mockup of a new user card component,
           but he didn't finish the styling before he went to a coworker's farewell party and
           you haven't heard from him since.
         </p>

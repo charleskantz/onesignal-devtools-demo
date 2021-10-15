@@ -55,6 +55,10 @@ body > * {
   font-weight: 600;
 }
 
+.user-title {
+  text-decoration: line-through;
+}
+
 .user-stat-container {
   display: flex;
   flex-direction: column;
@@ -63,4 +67,8 @@ body > * {
 
 .user-stat-value {
   font-weight: 600;
+}
+
+.user-stat-label {
+  font-style: italic;
 }
