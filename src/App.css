@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body {
+  background-color: #f6f7f8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body > * {
+  font-family: 'Courier New', Courier, monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.instructions {
+  max-width: 600px;
+  margin: 24px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-card {
+  padding: 96px 0;
+  margin: 0 auto;
+}
+
+.card {
+  width: 450px;
+  background-color: white;
+  padding: 9px;
+  box-shadow: 9px 9px 5px rgba(0,0,0,.15);
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 24px;
+}
+
+.card-header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.user-avatar {
+  border-radius: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-name-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+  text-align: left;
+}
+
+.user-name {
+  font-weight: 600;
+}
+
+.user-stat-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.user-stat-value {
+  font-weight: 600;
 }
