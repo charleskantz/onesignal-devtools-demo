@@ -19,13 +19,13 @@ function App() {
           the features, maybe you can use that to fix the design for the demo?
         </p>
         <p>
-          Optional: If you want a design to work from, <a href="https://webpixels.io/img/components/screens/desktop/card_profile_1.jpg" target="_blank" rel="noopener" >check out this layout.</a>
+          Optional: If you want a design to work from, <a href="https://webpixels.io/img/components/screens/desktop/card_profile_1.jpg" target="_blank" rel="noreferrer" >check out this layout.</a>
         </p>
       </div>
       <div className="container-card">
         <div className="card">
           <div className="card-header">
-            <img className="user-avatar" width="100px" height="100px"
+            <img className="user-avatar" width="100px" height="100px" alt=""
               src="https://www.participate.nyc.gov/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg"
             />
             <div className="user-name-container">
