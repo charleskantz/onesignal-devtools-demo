@@ -21,6 +21,9 @@ function App() {
         <p>
           Optional: If you want a design to work from, <a href="https://webpixels.io/img/components/screens/desktop/card_profile_1.jpg" target="_blank" rel="noreferrer" >check out this layout.</a>
         </p>
+        <p>
+          If you want to look up CSS values to use, check out <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank" rel="noreferrer" >MDN and try searching for what you want.</a>
+        </p>
       </div>
       <div className="container-card">
         <div className="card">
